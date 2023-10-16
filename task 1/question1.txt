@@ -1,0 +1,15 @@
+/*
+Make a rectangle and when we move mouse on that rectangle on the left side we want to gradually change the color of that rectange to red and when we move mouse to the right side we want to change the color to blue.
+ */
+
+
+1.  If you want center any element
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+2. Strategy to make this project:-    
+   - Firstly identify mouse is on the rectangle or not.
+   - The calculate we are on the left side from the center or we are on the right side from the center.
+   - Ab ye calculate karo ke hum center se kitna left par hai, jitna left par hai utni intensity se color change ho.

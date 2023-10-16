@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    color: #ffffff;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: #000000;
+}
+
+.image1 {
+    width: 14vw;
+}
+
+#main .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.2vw;
+}
+
+.middle ul {
+    display: flex;
+    gap: 55px;
+    list-style: none;
+}
+
+.right {
+    display: flex;
+    gap: 55px;
+    align-items: center;
+}
+
+.right a {
+    text-decoration: none;
+}
+
+
+.right a:last-child {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 1.2vw 2.3vw;
+}
+
+#centerMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3vw 5vw;
+    position: relative;
+}
+
+#centerMain h1 {
+    font-size: 8vw;
+    font-weight: 500;
+}
+span {
+    font-size: 5.5vw;
+    background-color: #AA4465;
+    border-radius: 85px;
+    padding: 1vw 3vw;
+}
+
+span:hover {
+    cursor: pointer;
+}
+
+footer {
+    padding: 25px 35px;
+    display: flex;
+    align-items: center;
+    gap: 41vw;
+    position: fixed;
+    bottom: 0;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.icons i:hover {
+    cursor: pointer;
+}
+
+#image2 {
+    position: absolute;
+    right: 72%;
+    top: -20%;
+    scale: 0.25;
+    border-radius: 40px;
+}
+
+#image3 {
+    scale: 0.20;
+    position: absolute;
+    left: 50%;
+    top: -46%;
+    z-index: 100;
+}
+
+#image5 {
+    scale: 0.20;
+    position: absolute;
+    left: 59%;
+    top: 20%;
+    z-index: 100;
+}
+
+#image4 {
+    scale: 0.20;
+    position: absolute;
+    left: -15%;
+    top: 20%;
+    z-index: 100;
+}
